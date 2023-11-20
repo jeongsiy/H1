@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logo in Header</title>
+</head>
+<body>
+    <header>
+        <img width = "50" src = "images/logo.png" href = "logo">
+    </header>
+    <form action="contact.php" method="POST">
+        <fieldset>
+        <lable for ="firstName">First Name: </lable>
+        <input Name="firstName" required>
+
+        <lable for ="lastName">Last Name: </lable>
+        <input Name="lastName" required>
+
+        <lable for="email">Email: </lable>
+        <input type="email" required placeholder="Enter your email">
+        
+        <input type="checkbox" name="Category interests"/>
+        <input type="radio" name="Industry"/>Industry
+        <input type="radio" name="Technical"/>Technical
+        <input type="radio" name="Career"/>Career
+
+        <select name="Your role">
+            <option value="0">Writer</option>
+            <option value="1">Contributor</option>
+            <option value="2">Administrator</option>
+
+        </fieldset> 
+
+        <input type="submit">
+    </form>
+
+    <footer>
+        <p>About cookie usage. <a href="#">Accept cookies</a></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body{
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    background-color: grey;
+    margin: 0;
+}
+
+h1, h2, h3{
+    font-size: 1.5em;
+    margin-left: 20px;
+}
+
+article{
+    background-color: white;
+}
+
+#Technical{
+    background-color: black;
+    color: white;
+}
+
+#Career{
+    background-color: purple;
+    color: white;
+}
+
+@media screen and (max-width:480px){
+    body{
+        font-size: 18px;
+        line-height: 1.8;
+    }
+
+    header, section, footer{
+        width: 100%;
+    }
+
+}
+
+@media screen and (min-width: 768px){
+    header, footer{
+        width: 100%;
+    }
+
+    article{
+        width: 80%
+    }
+
+    .category{
+        width: 100%;
+    }
+
+}
+
+input[required], textarea[required]{
+    border: 1px solid red;
+}
