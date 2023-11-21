@@ -3,25 +3,60 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color: grey;
     margin: 0;
+
+}
+
+main{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
 }
 
 h1, h2, h3{
     font-size: 1.5em;
-    margin-left: 20px;
+    margin-left: 30px;
 }
 
 article{
     background-color: white;
 }
 
-#Technical{
+#technicalAuthor{
     background-color: black;
     color: white;
 }
 
-#Career{
+#careerAuthor{
     background-color: purple;
     color: white;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    top: 0;
+}
+
+header img{
+    width: 50px;
+}
+
+header a{
+    margin: 10px;
+}
+
+footer{
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    bottom: 0;
+}
+
+.content{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 20px;
 }
 
 @media screen and (max-width:480px){
@@ -29,24 +64,22 @@ article{
         font-size: 18px;
         line-height: 1.8;
     }
-
-    header, section, footer{
-        width: 100%;
+    header a{
+        width: 1px;
+        margin: 10px;
     }
-
 }
 
 @media screen and (min-width: 768px){
     header, footer{
         width: 100%;
     }
-
-    article{
+    .featured-article{
         width: 80%
     }
-
     .category{
-        width: 100%;
+        float: left;
+        width: 33.33%
     }
 
 }
